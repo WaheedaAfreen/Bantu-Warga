@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(243, 240, 237);
+    height: 70px;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+.nav{
+margin-top: 15px;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+/* <!-- hero section Start..... --> */
+.HeroSection{
+    display: flex;
+    justify-content: space-around;
+}
+.InpBtn{
+    width: 400px;
+    height: 80px;
+}
+.WelImg{
+ width: 400px;
+ height: 500px;
+ margin-right: -300px;
+ transform:translate(30%) ;
+ /* transform: rotate(30%); */
+ 
+}
+.WelImg1{
+    width: 510px;
+    height: 560px;
+    margin-left: 170px;
+}
+/* <!-- hero section End..... --> */
+
+/* <!--  Main section Start..... --> */
+.box1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+}
+.Box{
+    text-align: center;
+    width: 250px;
+    height: 160px;
+    background-color: #F3F1F1;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   ;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+/* <!--  Main section End..... --> */
+
+
+/* <!-- side section Start --> */
+.side{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.DRImg{
+    width: 600px;
+    height: 500px;
+   
+}
+.Download{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+
+/* <!-- imformation section Start --> */
+.info{
+    display: flex;
+    justify-content: space-around;}
+
+    .berita{
+        height: 500px;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: -500px; 
+    }
+    .berita1{
+       margin-top: -200px;
+        height: 300px;
+        width: 300px;
+      
+    }
+    /* <!-- from start... --> */
+    .from{
+        width: 800px;
+        height: 550px;
+        margin-left: 300px;
+    }
+
+
+    /* footer start */
+    .footer{
+     background: #5669FF;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .text{
+        padding: 10px;
+        margin-top: 20px;
+    }
